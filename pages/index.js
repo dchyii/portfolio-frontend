@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Logo from "../components/logo";
 
 export default function Home() {
@@ -12,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Logo />
+      <Logo width={"w-56"} height={"h-56"} />
     </div>
   );
 }
