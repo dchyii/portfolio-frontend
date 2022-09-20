@@ -9,7 +9,7 @@ const Logo = (props) => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className=" w-full h-full text-red-500 absolute top-48 group-hover:top-0 group-hover:text-red-700 transition-all duration-500 ease-in-out"
+        className=" w-full h-full text-red-100 absolute top-48 group-hover:top-0 group-hover:text-red-700 transition-all duration-500 ease-in-out"
       >
         <path
           fillRule="evenodd"
