@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import Logo from "../logo";
 
 const NavBar = () => {
+  const router = useRouter();
+
   return (
     <div className="w-full h-16 bg-slate-700 text-white pt-3 text-2xl">
       <ul className="w-full lg:w-5/6 xl:w-4/5 mx-auto px-5 gap-x-3 flex border border-green-500">
@@ -18,12 +21,16 @@ const NavBar = () => {
         </li>
         <li className="w-20 grid justify-items-center hover:font-extrabold hover:text-orange-500">
           <Link href="/">
-            <a>about</a>
+            <a className={router.asPath === "/" ? "text-orange-500" : ""}>
+              about
+            </a>
           </Link>
         </li>
         <li className="w-20 grid justify-items-center hover:font-extrabold hover:text-orange-500">
           <Link href="/blog">
-            <a>blog</a>
+            <a className={router.asPath === "/blog" ? "text-orange-500" : ""}>
+              blog
+            </a>
           </Link>
         </li>
       </ul>
