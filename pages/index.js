@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Logo from "../components/logo";
+import NavBar from "../components/layout/NavBar";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Logo width={"w-56"} height={"h-56"} />
+      <NavBar />
     </div>
   );
 }
