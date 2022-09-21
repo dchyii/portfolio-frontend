@@ -7,7 +7,7 @@ const NavBar = () => {
   const router = useRouter();
 
   return (
-    <div className="w-full h-16 bg-slate-700 text-white pt-3 text-2xl">
+    <div className="w-full h-16 bg-slate-700 text-white pt-3 text-2xl fixed z-50">
       <ul className="w-full lg:w-5/6 xl:w-4/5 mx-auto px-5 gap-x-3 flex">
         <li className="grow group cursor-pointer">
           <Link href="/">
