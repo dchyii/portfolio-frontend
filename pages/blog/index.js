@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavBar from "../../components/layout/NavBar";
+import MainLayout from "../../components/layout/MainLayout";
 
 export default function Blog() {
   return (
@@ -10,7 +10,9 @@ export default function Blog() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar />
+      <MainLayout>
+        <p>blog page</p>
+      </MainLayout>
     </div>
   );
 }
