@@ -3,7 +3,7 @@ import React from "react";
 const Logo = (props) => {
   return (
     <div
-      className={`group relative ${props.width} ${props.height} overflow-hidden`}
+      className={`group relative ${props.width} aspect-square overflow-hidden`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -14,7 +14,7 @@ const NavBar = () => {
             <a className="flex">
               dchyii
               <span className="-translate-y-2">
-                <Logo width={"w-8"} height={"h-8"} />
+                <Logo width={"w-8"} />
               </span>
             </a>
           </Link>
