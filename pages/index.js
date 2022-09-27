@@ -1,5 +1,6 @@
 import Head from "next/head";
 import MainLayout from "../components/layout/MainLayout";
+import SideBar from "../components/layout/SideBar";
 
 export default function Home() {
   return (
@@ -11,7 +12,95 @@ export default function Home() {
       </Head>
 
       <MainLayout>
-        <p>main page</p>
+        <div className="w-full flex flex-col-reverse lg:flex-row">
+          <SideBar />
+          <div className="flex-grow w-full h-full overflow-scroll">
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+            body <br />
+          </div>
+        </div>
       </MainLayout>
     </div>
   );
