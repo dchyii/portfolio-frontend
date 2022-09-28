@@ -14,7 +14,7 @@ export default function Home() {
       <MainLayout>
         <div className="w-full flex flex-col-reverse lg:flex-row">
           <SideBar />
-          <div className="flex-grow w-full h-full overflow-scroll">
+          <div className="flex-grow w-full h-full overflow-scroll px-8">
             body <br />
             body <br />
             body <br />
