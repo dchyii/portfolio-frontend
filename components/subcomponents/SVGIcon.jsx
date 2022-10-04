@@ -4,7 +4,7 @@ const SVGIcon = (props) => {
   const svgIconLibrary = {
     profile: <Profile />,
     projects: <Projects />,
-    languages: <Languages />,
+    "tech stack": <TechStack />,
     contact: <Contact />,
   };
   return <>{svgIconLibrary[props.icon]}</>;
@@ -22,7 +22,7 @@ const Profile = () => {
   );
 };
 
-const Languages = () => {
+const TechStack = () => {
   return (
     <path
       strokeLinecap="round"
