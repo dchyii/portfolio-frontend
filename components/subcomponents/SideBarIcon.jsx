@@ -10,7 +10,7 @@ const SideBarIcon = (props) => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-10 md:w-12 lg:w-16 aspect-square hover:text-orange-500 z-50 bg-white"
+        className="w-10 md:w-12 lg:w-16 aspect-square group-hover:text-orange-500 z-50 bg-white"
       >
         <SVGIcon icon={props.name} />
       </svg>
