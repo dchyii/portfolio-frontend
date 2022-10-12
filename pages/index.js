@@ -1,4 +1,6 @@
 import Head from "next/head";
+import About from "../components/home/About";
+import Hero from "../components/home/Hero";
 import MainLayout from "../components/layout/MainLayout";
 import SideBar from "../components/layout/SideBar";
 
@@ -14,91 +16,9 @@ export default function Home() {
       <MainLayout>
         <div className="w-full flex flex-col-reverse lg:flex-row">
           <SideBar />
-          <div className="flex-grow w-full h-full overflow-scroll px-8">
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
-            body <br />
+          <div className="flex-grow w-full h-full overflow-scroll px-8 snap-y snap-mandatory scroll-smooth">
+            <Hero />
+            <About />
           </div>
         </div>
       </MainLayout>
